@@ -35,9 +35,7 @@ function SignUp(){
                       <input type="password" id="form3Example4cd" className="form-control"  onChange ={(e)=>setPassword(e.targetvalue)} />
                       <label className="form-label" htmlFor="form3Example4cd">Repeat your password</label>
 
-                    <button type="submit" className="btn btn-primary">Register</button>
-
-                    <Link to="/login" className="btn btn-primary">Login</Link>
+                   
 
                 </form>
 
